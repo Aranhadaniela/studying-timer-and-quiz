@@ -1,0 +1,14 @@
+.layout { min-height: 100vh; display: flex; flex-direction: column; }
+
+.topbar {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 1rem 2rem; border-bottom: 1px solid #e2e2e2;
+}
+
+.logo { font-weight: 700; font-size: 1.1rem; }
+
+.menu { display: flex; gap: 1.5rem; }
+.menu a { text-decoration: none; color: #555; }
+.menu a.ativo { color: #1a56db; font-weight: 600; }
+
+.conteudo { flex: 1; width: 100%; max-width: 960px; margin: 0 auto; padding: 2rem; }

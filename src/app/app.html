@@ -1,0 +1,16 @@
+<div class="layout">
+  <header class="topbar">
+    <span class="logo">Estudo & Quiz</span>
+    <nav class="menu">
+      <a routerLink="/quizzes" routerLinkActive="ativo" [routerLinkActiveOptions]="{ exact: true }">
+        Quizzes
+      </a>
+      <a routerLink="/quizzes/novo" routerLinkActive="ativo">Novo quiz</a>
+      <a routerLink="/estudo" routerLinkActive="ativo">Timer de estudo</a>
+    </nav>
+  </header>
+
+  <main class="conteudo">
+    <router-outlet />
+  </main>
+</div>
